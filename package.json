@@ -1,0 +1,24 @@
+{
+  "name": "kweller-auto-email",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "getStudents": "node ./data_collectors/index.js",
+    "updateGrades": "node ./data_collectors/update-grades.js",
+    "bcc": "node ./data_collectors/bcc-list.js",
+    "individual": "node ./data_collectors/individual-emails.js",
+    "createEmail": "node ./emails/create-email.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "google-spreadsheet": "^3.1.15",
+    "handlebars": "^4.7.6",
+    "node-cron": "^2.0.3",
+    "nodemailer": "^6.4.17",
+    "nodemailer-express-handlebars": "^4.0.0"
+  }
+}

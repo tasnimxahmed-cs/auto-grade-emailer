@@ -1,0 +1,566 @@
+[
+  {
+      "student": {
+        "name": "Dummy Student",
+        "email": "tasnimahmed102001@gmail.com",
+        "cell": "9178151250",
+        "course": "shsat"
+      },
+      "parent_1": {
+        "name": "Mom",
+        "email": "dragonoid202@gmail.com",
+        "cell": "9178179406"
+      },
+      "parent_2": {
+        "name": "Dad",
+        "email": "simplybudder@gmail.com",
+        "cell": "3463470667"
+      },
+      "grades": {
+        "tests": [
+          {
+            "raw": {
+              "reading": 54,
+              "math": 49,
+              "total": 103
+            },
+            "scaled": {
+              "reading": 326,
+              "math": 298,
+              "total": 624
+            }
+          },
+          {
+            "raw": {},
+            "scaled": {}
+          },
+          {
+            "raw": {},
+            "scaled": {}
+          },
+          {
+            "raw": {},
+            "scaled": {}
+          }
+        ],
+        "quizzes": []
+      }
+  },
+  {
+      "student": {
+        "name": "Dummy Student",
+        "email": "tasnimahmed102001@gmail.com",
+        "cell": "9178151250",
+        "course": "shsat"
+      },
+      "parent_1": {
+        "name": "Mom",
+        "email": "dragonoid202@gmail.com",
+        "cell": "9178179406"
+      },
+      "parent_2": {
+        "name": "Dad",
+        "email": "simplybudder@gmail.com",
+        "cell": "3463470667"
+      },
+      "grades": {
+        "tests": [
+          {
+            "raw": {
+              "reading": 54,
+              "math": 49,
+              "total": 103
+            },
+            "scaled": {
+              "reading": 326,
+              "math": 298,
+              "total": 624
+            }
+          },
+          {
+            "raw": {},
+            "scaled": {}
+          },
+          {
+            "raw": {},
+            "scaled": {}
+          },
+          {
+            "raw": {},
+            "scaled": {}
+          }
+        ],
+        "quizzes": []
+      }
+  },
+  {
+      "student": {
+        "name": "Dummy Student",
+        "email": "tasnimahmed102001@gmail.com",
+        "cell": "9178151250",
+        "course": "shsat"
+      },
+      "parent_1": {
+        "name": "Mom",
+        "email": "dragonoid202@gmail.com",
+        "cell": "9178179406"
+      },
+      "parent_2": {
+        "name": "Dad",
+        "email": "simplybudder@gmail.com",
+        "cell": "3463470667"
+      },
+      "grades": {
+        "tests": [
+          {
+            "raw": {
+              "reading": 54,
+              "math": 49,
+              "total": 103
+            },
+            "scaled": {
+              "reading": 326,
+              "math": 298,
+              "total": 624
+            }
+          },
+          {
+            "raw": {},
+            "scaled": {}
+          },
+          {
+            "raw": {},
+            "scaled": {}
+          },
+          {
+            "raw": {},
+            "scaled": {}
+          }
+        ],
+        "quizzes": []
+      }
+  },
+  {
+      "student": {
+        "name": "Dummy Student",
+        "email": "tasnimahmed102001@gmail.com",
+        "cell": "9178151250",
+        "course": "shsat"
+      },
+      "parent_1": {
+        "name": "Mom",
+        "email": "dragonoid202@gmail.com",
+        "cell": "9178179406"
+      },
+      "parent_2": {
+        "name": "Dad",
+        "email": "simplybudder@gmail.com",
+        "cell": "3463470667"
+      },
+      "grades": {
+        "tests": [
+          {
+            "raw": {
+              "reading": 54,
+              "math": 49,
+              "total": 103
+            },
+            "scaled": {
+              "reading": 326,
+              "math": 298,
+              "total": 624
+            }
+          },
+          {
+            "raw": {},
+            "scaled": {}
+          },
+          {
+            "raw": {},
+            "scaled": {}
+          },
+          {
+            "raw": {},
+            "scaled": {}
+          }
+        ],
+        "quizzes": []
+      }
+  },
+  {
+      "student": {
+        "name": "Dummy Student",
+        "email": "tasnimahmed102001@gmail.com",
+        "cell": "9178151250",
+        "course": "shsat"
+      },
+      "parent_1": {
+        "name": "Mom",
+        "email": "dragonoid202@gmail.com",
+        "cell": "9178179406"
+      },
+      "parent_2": {
+        "name": "Dad",
+        "email": "simplybudder@gmail.com",
+        "cell": "3463470667"
+      },
+      "grades": {
+        "tests": [
+          {
+            "raw": {
+              "reading": 54,
+              "math": 49,
+              "total": 103
+            },
+            "scaled": {
+              "reading": 326,
+              "math": 298,
+              "total": 624
+            }
+          },
+          {
+            "raw": {},
+            "scaled": {}
+          },
+          {
+            "raw": {},
+            "scaled": {}
+          },
+          {
+            "raw": {},
+            "scaled": {}
+          }
+        ],
+        "quizzes": []
+      }
+  },
+  {
+      "student": {
+        "name": "Dummy Student",
+        "email": "tasnimahmed102001@gmail.com",
+        "cell": "9178151250",
+        "course": "shsat"
+      },
+      "parent_1": {
+        "name": "Mom",
+        "email": "dragonoid202@gmail.com",
+        "cell": "9178179406"
+      },
+      "parent_2": {
+        "name": "Dad",
+        "email": "simplybudder@gmail.com",
+        "cell": "3463470667"
+      },
+      "grades": {
+        "tests": [
+          {
+            "raw": {
+              "reading": 54,
+              "math": 49,
+              "total": 103
+            },
+            "scaled": {
+              "reading": 326,
+              "math": 298,
+              "total": 624
+            }
+          },
+          {
+            "raw": {},
+            "scaled": {}
+          },
+          {
+            "raw": {},
+            "scaled": {}
+          },
+          {
+            "raw": {},
+            "scaled": {}
+          }
+        ],
+        "quizzes": []
+      }
+  },
+  {
+      "student": {
+        "name": "Dummy Student",
+        "email": "tasnimahmed102001@gmail.com",
+        "cell": "9178151250",
+        "course": "shsat"
+      },
+      "parent_1": {
+        "name": "Mom",
+        "email": "dragonoid202@gmail.com",
+        "cell": "9178179406"
+      },
+      "parent_2": {
+        "name": "Dad",
+        "email": "simplybudder@gmail.com",
+        "cell": "3463470667"
+      },
+      "grades": {
+        "tests": [
+          {
+            "raw": {
+              "reading": 54,
+              "math": 49,
+              "total": 103
+            },
+            "scaled": {
+              "reading": 326,
+              "math": 298,
+              "total": 624
+            }
+          },
+          {
+            "raw": {},
+            "scaled": {}
+          },
+          {
+            "raw": {},
+            "scaled": {}
+          },
+          {
+            "raw": {},
+            "scaled": {}
+          }
+        ],
+        "quizzes": []
+      }
+  },
+  {
+      "student": {
+        "name": "Dummy Student",
+        "email": "tasnimahmed102001@gmail.com",
+        "cell": "9178151250",
+        "course": "shsat"
+      },
+      "parent_1": {
+        "name": "Mom",
+        "email": "dragonoid202@gmail.com",
+        "cell": "9178179406"
+      },
+      "parent_2": {
+        "name": "Dad",
+        "email": "simplybudder@gmail.com",
+        "cell": "3463470667"
+      },
+      "grades": {
+        "tests": [
+          {
+            "raw": {
+              "reading": 54,
+              "math": 49,
+              "total": 103
+            },
+            "scaled": {
+              "reading": 326,
+              "math": 298,
+              "total": 624
+            }
+          },
+          {
+            "raw": {},
+            "scaled": {}
+          },
+          {
+            "raw": {},
+            "scaled": {}
+          },
+          {
+            "raw": {},
+            "scaled": {}
+          }
+        ],
+        "quizzes": []
+      }
+  },
+  {
+      "student": {
+        "name": "Dummy Student",
+        "email": "tasnimahmed102001@gmail.com",
+        "cell": "9178151250",
+        "course": "shsat"
+      },
+      "parent_1": {
+        "name": "Mom",
+        "email": "dragonoid202@gmail.com",
+        "cell": "9178179406"
+      },
+      "parent_2": {
+        "name": "Dad",
+        "email": "simplybudder@gmail.com",
+        "cell": "3463470667"
+      },
+      "grades": {
+        "tests": [
+          {
+            "raw": {
+              "reading": 54,
+              "math": 49,
+              "total": 103
+            },
+            "scaled": {
+              "reading": 326,
+              "math": 298,
+              "total": 624
+            }
+          },
+          {
+            "raw": {},
+            "scaled": {}
+          },
+          {
+            "raw": {},
+            "scaled": {}
+          },
+          {
+            "raw": {},
+            "scaled": {}
+          }
+        ],
+        "quizzes": []
+      }
+  },
+  {
+      "student": {
+        "name": "Dummy Student",
+        "email": "tasnimahmed102001@gmail.com",
+        "cell": "9178151250",
+        "course": "shsat"
+      },
+      "parent_1": {
+        "name": "Mom",
+        "email": "dragonoid202@gmail.com",
+        "cell": "9178179406"
+      },
+      "parent_2": {
+        "name": "Dad",
+        "email": "simplybudder@gmail.com",
+        "cell": "3463470667"
+      },
+      "grades": {
+        "tests": [
+          {
+            "raw": {
+              "reading": 54,
+              "math": 49,
+              "total": 103
+            },
+            "scaled": {
+              "reading": 326,
+              "math": 298,
+              "total": 624
+            }
+          },
+          {
+            "raw": {},
+            "scaled": {}
+          },
+          {
+            "raw": {},
+            "scaled": {}
+          },
+          {
+            "raw": {},
+            "scaled": {}
+          }
+        ],
+        "quizzes": []
+      }
+  },
+  {
+      "student": {
+        "name": "Dummy Student",
+        "email": "tasnimahmed102001@gmail.com",
+        "cell": "9178151250",
+        "course": "shsat"
+      },
+      "parent_1": {
+        "name": "Mom",
+        "email": "dragonoid202@gmail.com",
+        "cell": "9178179406"
+      },
+      "parent_2": {
+        "name": "Dad",
+        "email": "simplybudder@gmail.com",
+        "cell": "3463470667"
+      },
+      "grades": {
+        "tests": [
+          {
+            "raw": {
+              "reading": 54,
+              "math": 49,
+              "total": 103
+            },
+            "scaled": {
+              "reading": 326,
+              "math": 298,
+              "total": 624
+            }
+          },
+          {
+            "raw": {},
+            "scaled": {}
+          },
+          {
+            "raw": {},
+            "scaled": {}
+          },
+          {
+            "raw": {},
+            "scaled": {}
+          }
+        ],
+        "quizzes": []
+      }
+  },
+  {
+      "student": {
+        "name": "Dummy Student",
+        "email": "tasnimahmed102001@gmail.com",
+        "cell": "9178151250",
+        "course": "shsat"
+      },
+      "parent_1": {
+        "name": "Mom",
+        "email": "dragonoid202@gmail.com",
+        "cell": "9178179406"
+      },
+      "parent_2": {
+        "name": "Dad",
+        "email": "simplybudder@gmail.com",
+        "cell": "3463470667"
+      },
+      "grades": {
+        "tests": [
+          {
+            "raw": {
+              "reading": 0,
+              "math": 0,
+              "total": 0
+            },
+            "scaled": {
+              "reading": 0,
+              "math": 0,
+              "total": 0
+            }
+          },
+          {
+            "raw": {},
+            "scaled": {}
+          },
+          {
+            "raw": {},
+            "scaled": {}
+          },
+          {
+            "raw": {},
+            "scaled": {}
+          }
+        ],
+        "quizzes": []
+      }
+  }
+]

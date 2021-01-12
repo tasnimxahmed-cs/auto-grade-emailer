@@ -1,0 +1,508 @@
+[
+  {
+    "student": {
+      "name": "Ariana Tranculescu",
+      "email": "Atranculescu@gmail.com",
+      "cell": "3475028637",
+      "course": "cram"
+    },
+    "parent_1": {
+      "name": "Roxana Olteanu ",
+      "email": "roxanaolteanu@ymail.com",
+      "cell": "9179914762"
+    },
+    "parent_2": {
+      "name": "Eugen Tranculescu",
+      "email": "Etranculescu@yahoo.com",
+      "cell": "9174398878"
+    },
+    "grades": {
+      "tests": [],
+      "quizzes": []
+    }
+  },
+  {
+    "student": {
+      "name": "Alianna Ribadeneira ",
+      "email": "Aliannaair@gmail.com",
+      "cell": "19179930838",
+      "course": "cram"
+    },
+    "parent_1": {
+      "name": "Aia Ribadeneira ",
+      "email": "aiariba1@gmail.com",
+      "cell": "6466332305"
+    },
+    "parent_2": {
+      "name": "Paul",
+      "email": "Paulrib1@gmail.com",
+      "cell": "9179815725"
+    },
+    "grades": {
+      "tests": [],
+      "quizzes": []
+    }
+  },
+  {
+    "student": {
+      "name": "Emma Crick",
+      "email": "emmacrick99@gmail.com",
+      "cell": "917-680-1480",
+      "course": "cram"
+    },
+    "parent_1": {
+      "name": "Priya Crick",
+      "email": "pudeshi7@gmail.com",
+      "cell": "917-446-6855"
+    },
+    "parent_2": {
+      "name": "David Crick",
+      "email": "djcrick@gmail.com",
+      "cell": "917-445-4921"
+    },
+    "grades": {
+      "tests": [],
+      "quizzes": []
+    }
+  },
+  {
+    "student": {
+      "name": "Jacob Shinn",
+      "email": "jacob.shinn.08@gmail.com",
+      "cell": "201-741-5591",
+      "course": "cram"
+    },
+    "parent_1": {
+      "name": "Irene Joo",
+      "email": "aphrodi@gmail.com",
+      "cell": "201-705-7978"
+    },
+    "parent_2": {
+      "name": "",
+      "email": "",
+      "cell": ""
+    },
+    "grades": {
+      "tests": [],
+      "quizzes": []
+    }
+  },
+  {
+    "student": {
+      "name": "Madison Lee",
+      "email": "mlee05899@gmail.com",
+      "cell": "212 498 9384",
+      "course": "cram"
+    },
+    "parent_1": {
+      "name": "Jennifer Lee",
+      "email": "gilbertandjennifer@gmail.com",
+      "cell": "917 596 8388"
+    },
+    "parent_2": {
+      "name": "",
+      "email": "",
+      "cell": ""
+    },
+    "grades": {
+      "tests": [],
+      "quizzes": []
+    }
+  },
+  {
+    "student": {
+      "name": "Seher Mehta ",
+      "email": "25mehtas@bsge.org",
+      "cell": "917-767-7801",
+      "course": "cram"
+    },
+    "parent_1": {
+      "name": "Dipali Mehta",
+      "email": "mdipali17@gmail.com",
+      "cell": "646-262-9400"
+    },
+    "parent_2": {
+      "name": "Sopen Mehta",
+      "email": "sopen@iddny.com",
+      "cell": "917-916-7343"
+    },
+    "grades": {
+      "tests": [],
+      "quizzes": []
+    }
+  },
+  {
+    "student": {
+      "name": "Shayra Shoshi",
+      "email": "shayra.shoshi@gmail.com",
+      "cell": "(646)797-1650",
+      "course": "cram"
+    },
+    "parent_1": {
+      "name": "Ahammadee Rina",
+      "email": "ahammadeerina@gmail.com",
+      "cell": "(646)258-8449"
+    },
+    "parent_2": {
+      "name": "Saifuddin Iqbal",
+      "email": "saifuddinIqbal70.Iqbal@gmail.com",
+      "cell": "(646)258-8543"
+    },
+    "grades": {
+      "tests": [],
+      "quizzes": []
+    }
+  },
+  {
+    "student": {
+      "name": "Silas Dorsky",
+      "email": "sdorsky25@westendsecondary.com",
+      "cell": "9175093161",
+      "course": "cram"
+    },
+    "parent_1": {
+      "name": "Risa Dorsky",
+      "email": "Dorsky.risa@gmail.com",
+      "cell": "9174398540"
+    },
+    "parent_2": {
+      "name": "",
+      "email": "",
+      "cell": ""
+    },
+    "grades": {
+      "tests": [],
+      "quizzes": []
+    }
+  },
+  {
+    "student": {
+      "name": "Tamrat Gavenas",
+      "email": "tamgavenas@gmail.com",
+      "cell": "212 977-3668",
+      "course": "cram"
+    },
+    "parent_1": {
+      "name": "MaryLisa Gavenas",
+      "email": "mgavenas@aol.com",
+      "cell": "212 977-3668"
+    },
+    "parent_2": {
+      "name": "",
+      "email": "",
+      "cell": ""
+    },
+    "grades": {
+      "tests": [],
+      "quizzes": []
+    }
+  },
+  {
+    "student": {
+      "name": "Wolfgang Hoffman",
+      "email": "wolfgangh2nycstudents.net",
+      "cell": "917-575-4034",
+      "course": "cram"
+    },
+    "parent_1": {
+      "name": "Stuart Hoffman",
+      "email": "hoffman11375@gmail.com",
+      "cell": "917-704-3779"
+    },
+    "parent_2": {
+      "name": "Haruka Hoffman",
+      "email": "hoffman11375@gmail.com",
+      "cell": "917-602-2585"
+    },
+    "grades": {
+      "tests": [],
+      "quizzes": []
+    }
+  },
+  {
+    "student": {
+      "name": "Amidala Barta-Zilles",
+      "email": "lolabartazilles@gmail.com",
+      "cell": "9172159687",
+      "course": "cram"
+    },
+    "parent_1": {
+      "name": "Tanja Zilles",
+      "email": "tanjazilles@gmail.com",
+      "cell": "9179128377"
+    },
+    "parent_2": {
+      "name": "Stefan Barta",
+      "email": "skbarta@hotmail.com",
+      "cell": "9179128112"
+    },
+    "grades": {
+      "tests": [],
+      "quizzes": []
+    }
+  },
+  {
+    "student": {
+      "name": "Gael De balanzo",
+      "email": "Gaeldebalanzo@gmail.com",
+      "cell": "9177179071",
+      "course": "shsat"
+    },
+    "parent_1": {
+      "name": "Nuria Rodriguez",
+      "email": "nrodriguezplanas@gmail.com",
+      "cell": "9177179071"
+    },
+    "parent_2": {
+      "name": "Rafael De Balanzo",
+      "email": "Rbalanzoj@gmail.com",
+      "cell": "2024458961"
+    },
+    "grades": {
+      "tests": [],
+      "quizzes": []
+    }
+  },
+  {
+    "student": {
+      "name": "Eshaan Dangayach",
+      "email": "edangayach@gmail.com",
+      "cell": "9178615850",
+      "course": "shsat"
+    },
+    "parent_1": {
+      "name": "Sweta Dangayach",
+      "email": "swetadangayach@gmail.com",
+      "cell": "9175739035"
+    },
+    "parent_2": {
+      "name": "Yatish Dangayach",
+      "email": "yatish@dyach.com",
+      "cell": "9176225535"
+    },
+    "grades": {
+      "tests": [],
+      "quizzes": []
+    }
+  },
+  {
+    "student": {
+      "name": "Anthony Ciafone",
+      "email": "acp91203@gmail.com",
+      "cell": "7182237125",
+      "course": "shsat"
+    },
+    "parent_1": {
+      "name": "Gina Argento",
+      "email": "ginabws@gmail.com",
+      "cell": "9173123443"
+    },
+    "parent_2": {
+      "name": "Paulina Kaczmarczyk (tutor)",
+      "email": "paulinak721@gmail.com",
+      "cell": "9175155252"
+    },
+    "grades": {
+      "tests": [],
+      "quizzes": []
+    }
+  },
+  {
+    "student": {
+      "name": "DINESH KUMAR PRAVEEN KUMAR",
+      "email": "praveenkumard@taism.com",
+      "cell": "+968-94788689",
+      "course": "shsat"
+    },
+    "parent_1": {
+      "name": "PRASANNA LAXMI KRISHNAPPAN",
+      "email": "kpl007@hotmail.com",
+      "cell": "+96896017373"
+    },
+    "parent_2": {
+      "name": "PRAVEEN KUMAR RAMAMURTHY",
+      "email": "praveenk007@hotmail.com",
+      "cell": "+968-99314393"
+    },
+    "grades": {
+      "tests": [],
+      "quizzes": []
+    }
+  },
+  {
+    "student": {
+      "name": "Isa Kageyama",
+      "email": "isa.kageyama@gmail.com",
+      "cell": "646-799-3532",
+      "course": "shsat"
+    },
+    "parent_1": {
+      "name": "Ahlin Min",
+      "email": "ahlin.min@gmail.com",
+      "cell": "347-931-6491"
+    },
+    "parent_2": {
+      "name": "Noa Kageyama ",
+      "email": "Kageyama.noa@gmail.com",
+      "cell": "347-931-6490"
+    },
+    "grades": {
+      "tests": [],
+      "quizzes": []
+    }
+  },
+  {
+    "student": {
+      "name": "Mikaela Gee",
+      "email": "Mikaela3358@gmail.com",
+      "cell": "9294262226",
+      "course": "shsat"
+    },
+    "parent_1": {
+      "name": "Allen Gee",
+      "email": "stedmans8@gmail.com",
+      "cell": "7187348888"
+    },
+    "parent_2": {
+      "name": "Chew Lai",
+      "email": "pupu3333@yahoo.com",
+      "cell": "3479073338"
+    },
+    "grades": {
+      "tests": [],
+      "quizzes": []
+    }
+  },
+  {
+    "student": {
+      "name": "Nicole Chiu",
+      "email": "watergirlnicole@gmail.com",
+      "cell": "347-925-6341",
+      "course": "shsat"
+    },
+    "parent_1": {
+      "name": "Wendy Chiu",
+      "email": "ngwychiu@gmail.com",
+      "cell": "347-691-1705"
+    },
+    "parent_2": {
+      "name": "Patrick Chiu",
+      "email": "chiupf@gmail.com",
+      "cell": "347-446-2532"
+    },
+    "grades": {
+      "tests": [],
+      "quizzes": []
+    }
+  },
+  {
+    "student": {
+      "name": "Sophia Cheng",
+      "email": "sophiameganofficial@gmail.com",
+      "cell": "212-925-5481",
+      "course": "shsat"
+    },
+    "parent_1": {
+      "name": "Daniel Cheng",
+      "email": "dancheng93@gmail.com",
+      "cell": "917-576-9956"
+    },
+    "parent_2": {
+      "name": "Joanne Kwong",
+      "email": "canlychee@aol.com",
+      "cell": "212-925-5481"
+    },
+    "grades": {
+      "tests": [],
+      "quizzes": []
+    }
+  },
+  {
+    "student": {
+      "name": "Stuti Das",
+      "email": "stutixdas@gmail.com",
+      "cell": "N/A",
+      "course": "shsat"
+    },
+    "parent_1": {
+      "name": "Tapajit Das",
+      "email": "Txdas@hotmail.com",
+      "cell": "9176094569"
+    },
+    "parent_2": {
+      "name": "Chandra Banerjee",
+      "email": "chandraxxban@gmail.com",
+      "cell": "9176987272"
+    },
+    "grades": {
+      "tests": [],
+      "quizzes": []
+    }
+  },
+  {
+    "student": {
+      "name": "Alyssa Palmer",
+      "email": "Alyssa.ellen.palmer@gmail.com",
+      "cell": "917-929-0218",
+      "course": "shsat"
+    },
+    "parent_1": {
+      "name": "Erin Palmer",
+      "email": "erinapalmer@gmail.com",
+      "cell": "917-929-0218"
+    },
+    "parent_2": {
+      "name": "Christopher Palmer",
+      "email": "thecav@gmail.com",
+      "cell": "917-623-5332"
+    },
+    "grades": {
+      "tests": [],
+      "quizzes": []
+    }
+  },
+  {
+    "student": {
+      "name": "Anya Palmer",
+      "email": "anya.maria.palmer@gmail.com",
+      "cell": "917-929-0218",
+      "course": "shsat"
+    },
+    "parent_1": {
+      "name": "Erin Palmer",
+      "email": "erinapalmer@gmail.com",
+      "cell": "917-929-0218"
+    },
+    "parent_2": {
+      "name": "Christopher Palmer",
+      "email": "thecav@gmail.com",
+      "cell": "917-623-5332"
+    },
+    "grades": {
+      "tests": [],
+      "quizzes": []
+    }
+  },
+  {
+    "student": {
+      "name": "Ava Quan",
+      "email": "avasophia.quan@ms54.org",
+      "cell": "9178151250",
+      "course": "shsat"
+    },
+    "parent_1": {
+      "name": "Kevin Quan",
+      "email": "kjquan@yahoo.com",
+      "cell": "9178179406"
+    },
+    "parent_2": {
+      "name": "PRat Vemulapalli",
+      "email": "pratmd@gmail.com",
+      "cell": "3463470667"
+    },
+    "grades": {
+      "tests": [],
+      "quizzes": []
+    }
+  }
+]

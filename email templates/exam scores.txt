@@ -1,0 +1,25 @@
+
+
+Good morning,
+
+Please find your child’s score from the most recent exam below:
+
+English
+a/57
+Mathematics
+b/57
+Total
+c/114
+English (Scaled)
+X
+Mathematics (Scaled)
+Y
+Total (Scaled)
+z
+
+If you have any questions or concerns, please feel free to reach out!
+Thank you for your time.
+Best, 
+Tasnim Ahmed
+Kweller Prep Manhattan
+
