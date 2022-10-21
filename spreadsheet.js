@@ -72,6 +72,9 @@ module.exports.extractRowsFromColumn = async (data, key) => {
     {
         if(column[i].toLowerCase().includes(key)) rowNums.push(i);
     }
+
+    rowNums.shift();
+    rowNums.push(rowNums[rowNums.length-1]+1);
     
     const allRows = await worksheet.getRows();
     let rows = [];
@@ -79,12 +82,12 @@ module.exports.extractRowsFromColumn = async (data, key) => {
     {
         if(rowNums.includes(allRows[i]._rowNumber))
         {
-            rows.push(allRows[i+1]);
+            rows.push(allRows[i]);
         }
     }
 
     const moreData = [worksheet, rows];
-    return moreData; 
+    return moreData;
 };
 
 module.exports.extractColumnValuesFromRow = async (data, myRows) => {

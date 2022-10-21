@@ -2,7 +2,7 @@ const spreadsheet = require('../spreadsheet.js');
 const toJson = require('../to-json.js');
 
 const spreadsheetId = '1PNa2cuQKcZ_d-wXoWTm_jNRTOkmYVGqEWTybxcOCWvM';
-const worksheetIndex = 0;
+const worksheetIndex = 3;
 
 let myRows = [];
 
@@ -19,6 +19,7 @@ let courses = [];
 
 let myStudents = [];
 
+//accesses spreadsheet via id -> finds column named 'tutor name' -> extracts row numbers where 'tutor name' is 'tasnim' 
 spreadsheet.accessSpreadsheet(spreadsheetId)
 .then((doc) => {
     return spreadsheet.accessWorksheet(doc, worksheetIndex);
@@ -37,6 +38,7 @@ spreadsheet.accessSpreadsheet(spreadsheetId)
     studentName();
 });
 
+//access spreadsheet via id -> find column named 'student name' -> extracts student names from previously extracted row numbers
 function studentName()
 {
     spreadsheet.accessSpreadsheet(spreadsheetId)
@@ -55,6 +57,7 @@ function studentName()
     });
 }
 
+//access spreadsheet via id -> find column named 'student email' -> extracts student emails from previously extracted row numbers
 function studentEmail()
 {
     spreadsheet.accessSpreadsheet(spreadsheetId)
@@ -73,6 +76,7 @@ function studentEmail()
     });
 }
 
+//access spreadsheet via id -> find column named 'student cell' -> extracts student cells from previously extracted row numbers
 function studentCell()
 {
     spreadsheet.accessSpreadsheet(spreadsheetId)
@@ -91,6 +95,7 @@ function studentCell()
     });
 }
 
+//access spreadsheet via id -> find column named 'parent 1 name' -> extracts parent 1 names from previously extracted row numbers
 function parent1Name()
 {
     spreadsheet.accessSpreadsheet(spreadsheetId)
@@ -109,6 +114,7 @@ function parent1Name()
     });
 }
 
+//access spreadsheet via id -> find column named 'parent 1 email' -> extracts parent 1 emails from previously extracted row numbers
 function parent1Email()
 {
     spreadsheet.accessSpreadsheet(spreadsheetId)
@@ -127,6 +133,7 @@ function parent1Email()
     });
 }
 
+//access spreadsheet via id -> find column named 'parent 1 phone number ' -> extracts parent 1 phone numbers from previously extracted row numbers
 function parent1Cell()
 {
     spreadsheet.accessSpreadsheet(spreadsheetId)
@@ -145,6 +152,7 @@ function parent1Cell()
     });
 }
 
+//access spreadsheet via id -> find column named 'parent 2 name' -> extracts parent 2 names from previously extracted row numbers
 function parent2Name()
 {
     spreadsheet.accessSpreadsheet(spreadsheetId)
@@ -163,6 +171,7 @@ function parent2Name()
     });
 }
 
+//access spreadsheet via id -> find column named 'parent 2 email' -> extracts parent 2 emails from previously extracted row numbers
 function parent2Email()
 {
     spreadsheet.accessSpreadsheet(spreadsheetId)
@@ -181,6 +190,7 @@ function parent2Email()
     });
 }
 
+//access spreadsheet via id -> find column named 'parent 2 number' -> extracts parent 2 numbers from previously extracted row numbers
 function parent2Cell()
 {
     spreadsheet.accessSpreadsheet(spreadsheetId)
@@ -199,6 +209,7 @@ function parent2Cell()
     });
 }
 
+//access spreadsheet via id -> find column named 'course currently enrolled in' -> extracts course currently enrolled in from previously extracted row numbers
 function course()
 {
     spreadsheet.accessSpreadsheet(spreadsheetId)
@@ -217,6 +228,7 @@ function course()
     });
 }
 
+//creates new student objects containing all extracted information from previous functions -> pushes to new array of student objects
 function generateStudents()
 {
     for(i=0;i<studentNames.length;i++)
@@ -257,11 +269,13 @@ function generateStudents()
         myStudents.push(tempStudent);
     }
 
+    //splits students into courses based on day
     for(i=0;i<myStudents.length;i++)
     {
-        if(myStudents[i].student.course.toLowerCase().includes('cram')) myStudents[i].student.course = 'cram';
-        else myStudents[i].student.course = 'shsat';
+        if(myStudents[i].student.course.toLowerCase().includes('sunday')) myStudents[i].student.course = 'sunday';
+        else myStudents[i].student.course = 'saturday';
     }
 
-    toJson.toJson('./student json files/students.json', myStudents);
+    //render data to json file
+    toJson.toJson('student json files/students.json', myStudents);
 }

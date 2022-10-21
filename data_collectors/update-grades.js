@@ -10,6 +10,7 @@ const alphabet = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M
 let rawData = fs.readFileSync('./student json files/students.json');
 let myStudents = JSON.parse(rawData);
 
+//gets total number of sheets
 spreadsheet.accessSpreadsheet(spreadsheetId)
 .then((doc) => {
     return spreadsheet.getWorksheetCount(doc);
@@ -19,9 +20,10 @@ spreadsheet.accessSpreadsheet(spreadsheetId)
     updateGrades();
 });
 
+//starts at index number of first grade sheet
 async function updateGrades()
 {
-    for(let i=1;i<worksheets;i++)
+    for(let i=4;i<worksheets;i++)
     {
         const studentNames = await getStudentNames(i);
 
@@ -30,6 +32,8 @@ async function updateGrades()
         const testScores = await returnTestScores(i, testIndices);
         
         const updatedStudents = await inputTestScores(studentNames, testScores);
+
+        console.log(studentNames)
     }
     toJson.toJson('./student json files/updated-students.json', myStudents);
 }
@@ -43,7 +47,7 @@ function getStudentNames(worksheetIndex)
             return spreadsheet.accessWorksheet(doc, worksheetIndex);
         })
         .then((worksheet) => {
-            return spreadsheet.findColumn(worksheet, 'my students');
+            return spreadsheet.findColumn(worksheet, 'MY STUDENTS');
         })
         .then((data) => {
             return spreadsheet.extractColumnValue(data);
@@ -63,8 +67,10 @@ function getStudentNames(worksheetIndex)
             values.splice(spliceIndex,values.length-spliceIndex);
             for(let i=0;i<values.length;i++)
             {
+                console.log(values[i])
                 if(i%7 == 0)
                 {
+                    
                     studentNames.push(values[i]);
                 }
             }

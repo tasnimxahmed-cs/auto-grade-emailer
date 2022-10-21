@@ -5,8 +5,8 @@ let rawData = fs.readFileSync('./student json files/updated-students.json');
 let myStudents = JSON.parse(rawData);
 
 let individualEmails = {
-    cram: [],
-    shsat: [],
+    saturday: [],
+    sunday: [],
 };
 
 for(i=0;i<myStudents.length;i++)
@@ -20,13 +20,13 @@ for(i=0;i<myStudents.length;i++)
     if(myStudents[i].parent_1.email.trim() != '') student.emails += myStudents[i].parent_1.email.trim()+';';
     if(myStudents[i].parent_2.email.trim() != '') student.emails += myStudents[i].parent_2.email.trim()+';';
 
-    if(myStudents[i].student.course === 'cram')
+    if(myStudents[i].student.course === 'saturday')
     {
-        individualEmails.cram.push(student);
+        individualEmails.saturday.push(student);
     }
     else
     {
-        individualEmails.shsat.push(student);
+        individualEmails.sunday.push(student);
     }
 }
 
