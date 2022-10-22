@@ -251,8 +251,7 @@ function generateStudents()
                 cell: '',
             },
             grades: {
-                tests: [],
-                quizzes: [],
+                tests: []
             }
         };
 

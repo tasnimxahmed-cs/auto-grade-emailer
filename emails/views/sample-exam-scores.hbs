@@ -16,11 +16,11 @@
     <body>
         <p>Good evening,</p>
         {{#with student}}
-        <p>Please find {{name}}'s score from the most recent exam below:</p>
+        <p>Please find {{name}}'s exam scores below:</p>
         {{/with}}
         <table style="width: 100;">
             <tr>
-                {{#with grades/tests.3/raw}}
+                {{#with grades/tests.0/raw}}
                 <td style="font-weight: bold;">English (Raw)</td>
                 <td>{{reading}}/57</td>
             </tr>
@@ -38,7 +38,7 @@
                 <td></td>
             </tr>
             <tr>
-                {{#with grades/tests.3/scaled}}
+                {{#with grades/tests.0/scaled}}
                 <td style="font-weight: bold;">English (Scaled)</td>
                 <td>{{reading}}</td>
             </tr>

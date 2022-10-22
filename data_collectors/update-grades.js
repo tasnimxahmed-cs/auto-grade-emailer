@@ -33,7 +33,6 @@ async function updateGrades()
         
         const updatedStudents = await inputTestScores(studentNames, testScores);
 
-        console.log(studentNames)
     }
     toJson.toJson('./student json files/updated-students.json', myStudents);
 }
@@ -47,7 +46,7 @@ function getStudentNames(worksheetIndex)
             return spreadsheet.accessWorksheet(doc, worksheetIndex);
         })
         .then((worksheet) => {
-            return spreadsheet.findColumn(worksheet, 'MY STUDENTS');
+            return spreadsheet.findColumn(worksheet, 'my students');
         })
         .then((data) => {
             return spreadsheet.extractColumnValue(data);
@@ -64,10 +63,9 @@ function getStudentNames(worksheetIndex)
                 } 
             }
             values.splice(0,1);
-            values.splice(spliceIndex,values.length-spliceIndex);
+            //values.splice(spliceIndex,values.length-spliceIndex);
             for(let i=0;i<values.length;i++)
             {
-                console.log(values[i])
                 if(i%7 == 0)
                 {
                     

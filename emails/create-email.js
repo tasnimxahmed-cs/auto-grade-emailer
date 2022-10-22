@@ -4,15 +4,18 @@ require('dotenv').config();
 const Handlebars = require('handlebars');
 const cron = require('node-cron');
 
-//let rawData = fs.readFileSync('./student json files/updated-students.json');
-let rawData = fs.readFileSync('./dummy-students.json');
+let rawData = fs.readFileSync('./student json files/updated-students.json');
+//let rawData = fs.readFileSync('./dummy-students.json');
 let myStudents = JSON.parse(rawData);
 
-let templateHbs = fs.readFileSync('./emails/views/exam-scores.hbs', 'utf-8');
+let sampleTemplate = fs.readFileSync('./emails/views/sample-exam-scores.hbs', 'utf-8');
+let template = Handlebars.compile(sampleTemplate);
+
+/*let templateHbs = fs.readFileSync('./emails/views/exam-scores.hbs', 'utf-8');
 let template = Handlebars.compile(templateHbs);
 
 let template2Hbs = fs.readFileSync('./emails/views/exam-scores-2.hbs', 'utf-8');
-let template2 = Handlebars.compile(template2Hbs);
+let template2 = Handlebars.compile(template2Hbs);*/
 
 /*transporter = nodemailer.createTransport({
     host: 'smtp.office365.com',
@@ -42,28 +45,15 @@ async function sendEmails()
         if(myStudents[i].parent_1.email.trim() != '') emails.push(myStudents[i].parent_1.email);
         if(myStudents[i].parent_2.email.trim() != '') emails.push(myStudents[i].parent_2.email);
         
-        if(myStudents[i].student.course == 'saturday')
-        {
-            mailOptions = {
-                from: '"Tasnim Kweller Prep" tasnimbrooklyntech@kwellerprep.com',
-                to: emails,
-                bcc: ['info@kwellerprep.com'],
-                subject: 'Kweller Prep SHSAT Exam Scores',
-                html: template2(myStudents[i]),
-            };
-        }
-        else
-        {
-            mailOptions = {
-                from: '"Tasnim Kweller Prep" tasnimbrooklyntech@kwellerprep.com',
-                to: emails,
-                bcc: ['info@kwellerprep.com'],
-                subject: 'Kweller Prep SHSAT Exam Scores',
-                html: template(myStudents[i]),
-            };
-        }
+        mailOptions = {
+            from: '"Tasnim Kweller Prep" tasnimahmed102001@gmail.com',
+            to: emails,
+            bcc: [],
+            subject: 'Kweller Prep SHSAT Exam Scores',
+            html: template(myStudents[i]),
+        };
 
         await transporter.sendMail(mailOptions);
     }
-    scheduleEmails.stop();
+   scheduleEmails.stop();
 }
